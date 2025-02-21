@@ -550,7 +550,6 @@ span {
     align-items: center;
     gap: 2rem;
     margin-top: 5rem;
-    /* Space it out from the content above */
     flex-wrap: wrap;
 }
 
@@ -693,4 +692,22 @@ span {
     .services-container {
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+.services-container .service-box:hover h3,
+.services-container .service-box:hover p {
+    color: #06746c;
+}
+
+.services-container .service-box:hover h4,
+.services-container .service-box:hover p {
+    color: #06746c;
+}
+
+.home-img img,
+.about-img img {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    object-fit: cover;
 }
